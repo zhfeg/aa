@@ -1,8 +1,4 @@
 ﻿package aa.src;
-
-
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -11,8 +7,9 @@ public class Calculator
 {
 	  public int  add(int x,int y) throws Exception {
 		  int sum= this.ad(x);
+                            int f=0;
 		  return sum;
-		 // return 1;
+		
 	 }
 	  
 	  private int ad(int x) throws Exception 

@@ -34,11 +34,9 @@ public class CalculatorTest {
 	
 	public void testC() throws Exception
 	{
-		//Calculator calculator =PowerMockito.mock( Calculator.class);
+	
 		Calculator calculator=new Calculator();
-		//when(calculator,"ad",2).thenReturn(2);
 		
-	//	when(calculator,"add",2,2).thenCallRealMethod();
 		assertEquals("error","4.0", calculator.calculate("2+2"));
 	
 	}
